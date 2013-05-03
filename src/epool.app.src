@@ -1,0 +1,15 @@
+
+{application, epool,
+	      [{description, "epool"},
+	      	{vsn, "0.1.0"},
+		{modules, [
+				epool_app,
+				epool_sup,
+				epool,
+				epool_pool_sup,
+				epool_worker_sup
+			]},
+		{registered, [epool_sup]},
+		{applications, [kernel, stdlib]},
+		{mod, {epool_app, []}}
+]}.
