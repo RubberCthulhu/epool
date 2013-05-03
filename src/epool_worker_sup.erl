@@ -1,11 +1,4 @@
-%%%-------------------------------------------------------------------
-%%% @author KernelPanic <alevandal@kernelpanic.svyazcom.ru>
-%%% @copyright (C) 2013, KernelPanic
-%%% @doc
-%%%
-%%% @end
-%%% Created : 28 Jan 2013 by KernelPanic <alevandal@kernelpanic.svyazcom.ru>
-%%%-------------------------------------------------------------------
+
 -module(epool_worker_sup).
 
 -behaviour(supervisor).
